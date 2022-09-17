@@ -16,6 +16,7 @@ li {
   margin: 5px;
 }
 div {
+  margin: 0 auto;
   padding: 0 0 0 15px;
   max-width: 960px;
   background-color: #9cb9d1;
@@ -99,4 +100,25 @@ footer {
   float: left;
   border: 3px solid #759cd8;
   border-radius: 75px;
+}
+.page-table {
+  margin: auto auto 10px auto;
+}
+table {
+  border: 3px solid #759cd8;
+  margin: 10px auto 10px auto;
+  border-collapse: collapse;
+}
+th {
+  border: 3px solid #759cd8;
+}
+td {
+  border: 3px solid #759cd8;
+}
+table tr:nth-child(odd) {
+  background-color: antiquewhite;
+}
+
+table tr:nth-child(even) {
+  background-color: aquamarine;
 }
