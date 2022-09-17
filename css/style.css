@@ -15,6 +15,13 @@ a {
 li {
   margin: 5px;
 }
+div {
+  padding: 0 0 0 15px;
+  max-width: 960px;
+  background-color: #9cb9d1;
+  border: 3px solid #759cd8;
+  border-radius: 25px;
+}
 header {
   border-bottom: 3px solid #759cd8;
   font-size: 60px;
@@ -22,6 +29,17 @@ header {
   padding: 20px 0 20px 0;
   background-color: #9cb9d1;
   height: 80px;
+}
+header div {
+  border: none;
+  max-height: 960px;
+  margin: 0 auto;
+  text-align: center;
+  height: 80px;
+}
+header div a {
+  margin: 15px auto 0 80px;
+  float: left;
 }
 header a {
   color: #094d74;
@@ -43,12 +61,7 @@ header a {
   margin: 0 auto;
 }
 .page-content {
-  padding: 0 0 0 15px;
-  max-width: 960px;
   margin: 0 auto 10px auto;
-  background-color: #9cb9d1;
-  border: 3px solid #759cd8;
-  border-radius: 25px;
 }
 .page-content-bottom {
   display: block;
@@ -62,15 +75,14 @@ header a {
 }
 
 .form {
-  padding: 0 0 0 15px;
   margin: 0px auto;
-  background-color: #9cb9d1;
-  max-width: 960px;
-  border: 3px solid #759cd8;
-  border-radius: 25px;
 }
 .form label input {
   margin: 10px 0 10px 0;
+  border-color: #9cb9d1;
+}
+.form label input:focus {
+  border: 3px solid #759cd8;
 }
 footer {
   margin: 30px 0 0 0;
@@ -80,4 +92,11 @@ footer {
   padding: 40px 0 0 0;
   background-color: #9cb9d1;
   height: 80px;
+}
+.page-logo {
+  max-width: 150px;
+  max-height: 150px;
+  float: left;
+  border: 3px solid #759cd8;
+  border-radius: 75px;
 }
