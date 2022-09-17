@@ -4,20 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Первое задание</title>
-    <link rel="stylesheet" href="../web2/css/style.css" />
+    <title>Второе задание</title>
+    <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
-    <h1>Первое задание.</h1>
-    <nav>
+    <header>
+      <a href="#top">Мой сайт | Второе задание</a>
+    </header>
+    <nav class="page-nav">
       <ul>
         <li><a href="#list">Список ссылок</a></li>
+        <li><a href="">|</a></li>
         <li><a href="#form">Форма</a></li>
       </ul>
     </nav>
     <section class="list" id="list">
-      <h2>Нумерованный список гиперссылок:</h2>
-      <div>
+      <h2 class="page-content-bottom">Нумерованный список гиперссылок</h2>
+      <div class="page-content">
         <ol>
           <li>
             <a href="http://example.com"
@@ -147,8 +150,8 @@
         </ol>
       </div>
     </section>
+    <h2 class="page-content-bottom">Форма</h2>
     <div class="form" id="form">
-      <h2>Форма</h2>
       <form action="/" method="post">
         <label>
           Текстовое поле
@@ -222,5 +225,6 @@
         <input type="submit" value="Отправить" />
       </form>
     </div>
+    <footer>(c)Соболев Владислав Викторович 2022</footer>
   </body>
 </html>
