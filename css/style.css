@@ -131,6 +131,6 @@ table tr:nth-child(odd) {
 table tr:nth-child(even) {
   background-color: aquamarine;
 }
-div a:hover {
+.page-content-bottom a:hover {
   color: #7f88ac;
 }
